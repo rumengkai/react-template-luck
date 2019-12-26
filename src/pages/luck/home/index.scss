@@ -1,0 +1,54 @@
+#luck-home {
+  p {
+    margin: 0;
+  }
+  .app-title {
+    margin-top: -5vh;
+    width: 50vw;
+    display: block;
+    margin: auto;
+  }
+  .detail {
+    color: #ffffff;
+    width: 76vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Baskerville, 'Times New Roman', 'Liberation Serif',
+        STFangsong, FangSong, FangSong_GB2312, CWTEX-F, serif;
+      font-weight: bold;
+      img {
+        width: 17vw;
+      }
+      .num_text {
+        font-size: calc(30px + 2vmin);
+        line-height: calc(45px + 2vmin);
+        margin-top: 2vw;
+      }
+      .gift_good {
+        font-size: calc(15px + 2vmin);
+        color: #ff3731;
+        line-height: calc(35px + 2vmin);
+      }
+      .gift_desc {
+        font-size: calc(10px + 2vmin);
+        line-height: calc(35px + 2vmin);
+      }
+    }
+  }
+  .next {
+    width: 5.4vw;
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;
+  }
+
+  .App-link {
+    color: #09d3ac;
+  }
+}

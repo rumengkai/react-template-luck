@@ -1,0 +1,23 @@
+#luck-result {
+  .detail {
+    color: #ffffff;
+    width: 76vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: Baskerville, 'Times New Roman', 'Liberation Serif',
+        STFangsong, FangSong, FangSong_GB2312, CWTEX-F, serif;
+      img {
+        width: 17vw;
+        margin: 2vw;
+      }
+      line-height: 40px;
+      font-size: 30px;
+    }
+  }
+}

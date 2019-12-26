@@ -1,0 +1,87 @@
+#luck-draw {
+  text-align: center;
+  height: 100vh;
+  background-color: #00439d;
+  .win_title {
+    width: 170px;
+    height: auto;
+    margin: 20px auto 0;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  img {
+    display: block;
+  }
+  .content {
+    position: relative;
+    z-index: 2;
+  }
+  .content_bg {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+  }
+  .luck-draw-header {
+    background-size: 100% 100%;
+    padding-top: 10px;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    .app-logo {
+      width: 33vw;
+      padding: 2vh;
+      margin: auto;
+      height: 15vh;
+      background: url(https://static1.kofuf.com/1573641373873.png) no-repeat;
+      background-size: 100% auto;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-tip {
+      width: 28px;
+      background: url(https://static1.kofuf.com/1573641999916.png);
+      font-size: 16px;
+      background-size: 100% 100%;
+      padding: 7px 4px;
+      line-height: 20px;
+    }
+  }
+  .app-title {
+    margin-top: -5vh;
+    width: 50vw;
+    display: block;
+    margin: auto;
+  }
+  .next {
+    width: 5.4vw;
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;
+    cursor: pointer;
+  }
+  .return {
+    width: 5.4vw;
+    position: fixed;
+    left: 5vw;
+    bottom: 5vw;
+    cursor: pointer;
+  }
+  .App-link {
+    color: #09d3ac;
+  }
+}
+.font_num_heiti {
+  font-family: -apple-system, 'Noto Sans', 'Helvetica Neue', Helvetica,
+    'Nimbus Sans L', Arial, 'Liberation Sans', 'PingFang SC', 'Hiragino Sans GB',
+    'Noto Sans CJK SC', 'Source Han Sans SC', 'Source Han Sans CN',
+    'Microsoft YaHei', 'Wenquanyi Micro Hei', 'WenQuanYi Zen Hei', 'ST Heiti',
+    SimHei, 'WenQuanYi Zen Hei Sharp', sans-serif;
+}
+.font_kaiti {
+  font-family: Baskerville, 'Times New Roman', 'Liberation Serif', STFangsong,
+    FangSong, FangSong_GB2312, CWTEX-F, serif;
+}

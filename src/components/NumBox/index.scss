@@ -1,0 +1,33 @@
+.num_box_one {
+  width: 770px;
+  height: 140px;
+  max-width: 77vw;
+  max-height: 14vw;
+  margin: auto;
+  position: relative;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    z-index: -1;
+  }
+  .nums {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .num {
+      transition: all 0.1s ease-in;
+      background: url('https://static1.kofuf.com/1573810073719.png') top center
+        repeat-y;
+      width: 64px;
+      height: 100px;
+      // background-size: 132px 1000px;
+    }
+  }
+}
